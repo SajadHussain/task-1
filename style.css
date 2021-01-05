@@ -1,0 +1,110 @@
+/* Helper style start here */
+body{
+    margin: 0px;
+}
+.sec1{
+    background-image: url(./images/IMG_7875.JPG); 
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    
+}
+.top-header{
+    /* background-color: black; */
+}
+.col ul{
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%;
+    grid-gap: 20px;
+    list-style: none;
+    font-size: 1.2em;
+
+}
+.it a{
+    border-style: solid ;
+    /* border-color: yellow; */
+    /* border-width: 10px; */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.col i{
+    list-style: none;
+    font-size: 2em;
+    color: blue;
+}
+.col li a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.sec1 .para1{
+    display: grid;
+    grid-template-columns: 40%;
+    margin-top: 20%;
+    margin-left: 75%;
+    color: white;
+    font-size: 1.5rem;
+    color: white;
+}
+.heading2{
+    text-align: center;
+}
+.heading2 p{
+    font-size: 20px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60%;
+    margin-left: 30%;
+}
+ .heading2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin: 5%;
+    display: inline;
+}
+.sec3{
+    width: 100%;
+
+}
+.head{
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    top: 245%;
+    left: 40%;
+}
+.progress, label, progress{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+}
+.head h1{
+    text-align: center;
+    font-size: 1.2rem;
+    position: absolute;
+    top: -15%;
+    margin-left: 40%;
+}
+.sec4 h1{
+    text-align: center;
+}
+.sec4 p{
+text-align: center;
+}
+.top{
+    width: 49%;
+    position: absolute;
+    left: 52%;
+    top: 348%;
+}
+.top a{
+border-style: solid;
+text-decoration: none;
+color: black;
+}
